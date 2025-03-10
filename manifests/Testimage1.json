@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Nana114109.github.io/TMDRA/manifests/Testimage1.json",
+  "@type" : "sc:Manifest",
+  "label" : "TMDRA Image",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "An annotated image from the TMDRA project",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://54f702b4-3736-4bdb-9809-2af521951885",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://9f98f948-9672-467d-9923-688ff0aad85b",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 259,
+      "width" : 194,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://cfb9b7fe-ce36-4f93-935e-70aa9a16f65d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://nana114109.github.io/TMDRA/images/testimage/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://nana114109.github.io/TMDRA/images/testimage",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 259,
+          "width" : 194
+        },
+        "on" : "http://9f98f948-9672-467d-9923-688ff0aad85b"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
