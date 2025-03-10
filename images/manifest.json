@@ -7,5 +7,87 @@
             "All images loaded in Nana114109/TMDRA project"
         ]
     },
-    "items": []
+    "items": [
+        {
+            "id": "https://Nana114109.github.io/TMDRA/images/testimage/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "testimage"
+                ]
+            },
+            "height": 259,
+            "width": 194,
+            "items": [
+                {
+                    "id": "https://Nana114109.github.io/TMDRA/images/testimage/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://Nana114109.github.io/TMDRA/images/testimage/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://Nana114109.github.io/TMDRA/images/testimage/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 7,
+                                                "height": 9
+                                            },
+                                            {
+                                                "width": 13,
+                                                "height": 17
+                                            },
+                                            {
+                                                "width": 25,
+                                                "height": 33
+                                            },
+                                            {
+                                                "width": 49,
+                                                "height": 65
+                                            },
+                                            {
+                                                "width": 97,
+                                                "height": 130
+                                            },
+                                            {
+                                                "width": 194,
+                                                "height": 259
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 194,
+                                        "@id": "https://Nana114109.github.io/TMDRA/images/testimage",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 259,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://Nana114109.github.io/TMDRA/images/testimage/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
